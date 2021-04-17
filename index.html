@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=divice-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<title>Project</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<!--fonts links-->
+	<link href="https://fonts.googleapis.com/css2?family=Alegreya&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Niconne&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@300&display=swap" rel="stylesheet">
+
+
+	<!--bootstrap links-->
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+</head>
+<body data-spy="scroll" data-target="#navbar" data-offset="100">
+	<!--start navbar-->
+	<nav class="navbar navbar-expand-md px-5 fixed-top bg-dark" id="navbar">
+		<a href="#" class="navbar-brand text-light" id="brand-name">Dawood</a>
+
+		<i class="fa fa-bars text-light navbar-toggler" data-toggle="collapse" data-target="#mobile-menu" style="font-size:35px;"></i>
+		
+		<div class="collapse navbar-collapse" id="mobile-menu">
+			<ul class="navbar-nav ml-auto" style="font-size:18px">
+				<li class="nav-item mr-3"><a href="#" class="nav-link">Home</a></li>
+				<li class="nav-item mr-3"><a href="#" class="nav-link">About</a></li>
+				<li class="nav-item mr-3"><a href="#" class="nav-link">Service</a></li>
+				<li class="nav-item mr-3"><a href="#" class="nav-link">Portfolio</a></li>
+				<li class="nav-item mr-3"><a href="#" class="nav-link">Team</a></li>
+				<li class="nav-item mr-3 dropdown" id="dropdown"><a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Drop Down</a>
+					<div class="dropdown-menu bg-dark">
+						<a href="#" class="dropdown-item">Dropwdown 1</a>
+						<a href="#" class="dropdown-item">Dropwdown 2</a>
+						<a href="#" class="dropdown-item">Dropwdown 3</a>
+						<a href="#" class="dropdown-item">Dropwdown 4</a>
+						<a href="#" class="dropdown-item">Dropwdown 5</a>
+					</div>
+				</li>
+				<li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+			</ul>
+		</div>
+	</nav>	
+	<!--end navbar-->
+	
+	<!-- start header coding-->
+
+	<div class="jumbotron rounded-0 mb-0" id="header">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6">
+					<h1>Better Solutions For Your Business</h1>
+					<p class="mb-5">We are team of talanted designers making websites with Bootstrap</p>
+					<div id="flex-box">
+						<button class="btn px-4 py-2 mr-4">Get Started</button>
+						<span><i class="fa fa-play-circle"></i> watch video</span>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<img src="img/hero-img.png" alt="hero-img" width="100%" class="animated bounce slower infinite">
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="jumbotron rounded-0 mb-0 p-0">
+		<div class="container" id="clients">
+			<img src="img/clients/client-1.png" alt="client-1">
+			<img src="img/clients/client-2.png" alt="client-2">
+			<img src="img/clients/client-3.png" alt="client-3">
+			<img src="img/clients/client-4.png" alt="client-4">
+			<img src="img/clients/client-5.png" alt="client-5">
+			<img src="img/clients/client-6.png" alt="client-6">
+		</div>
+	</div>
+
+	<div class="jumbotron rounded-0 mb-0" id="about-us">
+		<h2 class="header-h2 text-center">ABOUT US</h2>
+		<hr class="header-hr">
+		<div class="container mt-5">
+			<div class="row">
+				<div class="col-md-6">
+					<p class="header-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					<ul>
+						<li><i class="fa">&#xf00c;</i> Ullamco laboris nisi ut aliquip ex ea commodo consequat</li>
+						<li><i class="fa">&#xf00c;</i> Duis aute irure dolor in reprehenderit in voluptate velit</li>
+						<li><i class="fa">&#xf00c;</i> Ullamco laboris nisi ut aliquip ex ea commodo consequat</li>
+					</ul>
+				</div>
+				<div class="col-md-6">
+					<p class="header-p">Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					<button class="btn px-4 py-2">Learn More</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="jumbotron rounded-0 mb-0" style="background:#F3F5FA;" id="content">
+		<div class="row">
+			<div class="col-md-6" style="padding-left:90px;" id="parent">
+				<h2 class="header-h2 mb-3">Eum ipsam laborum deleniti velit pariatur architecto aut nihil</h2>
+				<p class="header-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit</p>
+				
+				<a href="#para-1" class="py-4 bg-light" style="display:block;" data-toggle="collapse"><span class="pl-4 pr-2">01</span> Non consectetur a erat nam at lectus urna duis? <i class="fa fa-angle-double-down"></i></a>
+				
+				<p class="bg-light px-4 pb-3 collapse" id="para-1" data-parent="#parent">Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.</p>
+
+				<a href="#para-2" class="py-4 bg-light mt-3" style="display:block;" data-toggle="collapse"><span class="pl-4 pr-2">02</span> Feugiat scelerisque varius morbi enim nunc? <i class="fa fa-angle-double-down"></i></a>
+	
+				<p class="bg-light px-4 pb-3 collapse" data-parent="#parent" id="para-2">Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.</p>
+
+				<a href="#para-3" class="py-4 bg-light mt-3" style="display:block;" data-toggle="collapse"><span class="pl-4 pr-2">03</span> Dolor sit amet consectetur adipiscing elit? <i class="fa fa-angle-double-down"></i></a>
+
+				<p class="bg-light collapse pb-3 px-4" data-parent="#parent" id="para-3">Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis</p>
+				
+			</div>
+			<div class="col-md-6">
+				<img src="img/why-us.png" alt="why-us" width="100%">
+			</div>
+		</div>
+	</div>
+
+	<div class="jumbotron rounded-0 mb-0" style="background:#FFF;">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6">
+					<img src="img/skills.png" alt="skills" width="100%">
+				</div>
+
+				<div class="col-md-6">
+					<h2 class="header-h2">Voluptatem dignissimos provident quasi corporis voluptates</h2>
+					<p class="header-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					
+					<div id="progress-bar-cont-1">
+						<p class="float-left py-0 my-0">HTML</p>
+						<p class="py-0 my-0">100%</p>
+						<div class="progress rounded-0">
+							<div class="progress-bar" style="background:#4668A2"></div>
+						</div>
+					</div>
+
+					<div class="progress-bar-cont-2 mt-3">
+						<p class="py-0 my-0 float-left">CSS</p>
+						<p class="py-0 my-0">90%</p>
+						<div class="progress rounded-0">
+							<div class="progress-bar" style="background:#4668A2"></div>
+						</div>
+					</div>
+
+					<div class="progress-bar-cont-3 mt-3">
+						<p class="py-0 my-0 float-left">JAVASCRIPT</p>
+						<p class="py-0 my-0">75%</p>
+						<div class="progress rounded-0">
+							<div class="progress-bar" style="background:#4668A2"></div>
+						</div>
+					</div>
+
+					<div class="progress-bar-cont-4 mt-3">
+						<p class="py-0 my-0 float-left">PHOTOSHOP</p>
+						<p class="py-0 my-0">55%</p>
+						<div class="progress rounded-0">
+							<div class="progress-bar" style="background:#4668A2"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="jumbotron rounded-0 mb-0" id="service">
+		<div class="container">
+			<h2 class="header-h2 text-center">SERVICES</h2>
+			<hr class="header-hr mb-4">
+			<p class="header-p text-center">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+			<div class="row mt-4">
+				<div class="col-md-3">
+					<div class="card">
+						<div class="card-body pt-5 pb-4 px-4">
+							<i class="fa mb-3">&#xf17d;</i>
+							<h3 class="mb-3">Lorem Ipsum</h3>
+							<p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>							
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="card">
+						<div class="card-body pt-5 pb-4 px-4">
+							<i class="fa mb-3">&#xf0f6;</i>
+							<h3 class="mb-3">Sed ut perspici</h3>
+							<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>							
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-3">
+					<div class="card">
+						<div class="card-body pt-5 pb-4 px-4">
+							<i class="fa mb-3">&#xf0e4;</i>
+							<h3 class="mb-3">Magni Dolores</h3>
+							<p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-3">
+					<div class="card">
+						<div class="card-body pt-5 pb-4 px-4">
+							<i class="fa fa-cut mb-3"></i>
+							<h3 class="mb-3">Nemo Enim</h3>
+							<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="jumbotron rounded-0 mb-0" id="call-action">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-9">
+					<h2 class="header-h2 text-light">Call To Action</h2>
+					<p class="header-p text-light">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				</div>
+				<div class="col-md-3">
+					<button class="btn px-5">Call To Action</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="jumbotron rounded-0 mb-0" id="portfolio">
+		<h2 class="header-h2 text-center">PORTFOLIO</h2>
+		<hr class="header-hr">
+		<p class="header-p text-center px-4 px-lg-0">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos<br class="d-none d-lg-block"> quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+		<div class="text-center btn-cont">
+			<button class="btn text-light" id="btn-1" style="background: #47B2E4;">All</button>
+			<button class="btn" id="btn-2">App</button>
+			<button class="btn" id="btn-3">Card</button>
+			<button class="btn" id="btn-4">Web</button>
+
+			<div class="container">
+				<div class="row mt-4">
+					<div class="col-md-4">
+						<img src="img/portfolio/portfolio-1.jpg" alt="portfolio-1" width="100%" class="mb-4">
+						<img src="img/portfolio/portfolio-6.jpg" alt="portfolio-6" width="100%">
+					</div>
+
+					<div class="col-md-4">
+						<img src="img/portfolio/portfolio-2.jpg" alt="portfolio-2" width="100%" class="mb-4">
+						<img src="img/portfolio/portfolio-5.jpg" alt="portfolio-5" width="100%" class="mb-4">
+						<img src="img/portfolio/portfolio-9.jpg" alt="portfolio-9" width="100%" class="mb-4">
+					</div>
+
+					<div class="col-md-4">
+						<img src="img/portfolio/portfolio-3.jpg" alt="portfolio-3" width="100%" class="mb-4">
+						<img src="img/portfolio/portfolio-4.jpg" alt="portfolio-4" width="100%" class="mb-4">
+						<img src="img/portfolio/portfolio-7.jpg" alt="portfolio-7" width="100%" class="mb-4">
+						<img src="img/portfolio/portfolio-8.jpg" alt="portfolio-8" width="100%">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="jumbotron rounded-0 mb-0" style="background:#F3F5FA;">
+		<div class="container" style="background:#F3F5FA;">
+			<h2 class="header-h2 text-center">TEAM</h2>
+			<hr class="header-hr">
+			<p class="header-p text-center">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+			
+			<div class="row mb-4" id="team">
+				<div class="col-md-6 mb-4 mb-lg-0">
+					<div class="card">
+						<div class="card-body">
+							<div class="row">
+								<div class="col-4">
+									<img src="img/team/team-1.jpg" alt="team-1" width="100%">
+								</div>
+								<div class="col-8">
+									<h5>Walter White</h5>
+									<p class="header-p mb-1 pb-1">Chief Executive Officer</p>
+									<hr>
+									<p class="header-p mt-1 pt-1">Explicabo voluptatem mollitia et repellat qui dolorum quasi</p>
+									<div class="m-icon">
+										<i class="fa fa-twitter"></i>
+										<i class="fa fa-facebook"></i>
+										<i class="fa fa-instagram"></i>
+										<i class="fa fa-linkedin"></i>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="card">
+						<div class="card-body">
+							<div class="row">
+								<div class="col-4">
+									<img src="img/team/team-2.jpg" alt="team-2" width="100%">
+								</div>
+								<div class="col-8">
+									<h5>Sarah Jhonson</h5>
+									<p class="header-p mb-1 pb-1">Product Manager</p>
+									<hr>
+									<p class="header-p mt-1 pt-1">Aut maiores voluptates amet et quis praesentium qui senda para</p>
+									<div class="m-icon">
+										<i class="fa fa-twitter"></i>
+										<i class="fa fa-facebook"></i>
+										<i class="fa fa-instagram"></i>
+										<i class="fa fa-linkedin"></i>								
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="row" id="team">
+				<div class="col-md-6 mb-4 mb-lg-0">
+					<div class="card">
+						<div class="card-body">
+							<div class="row">
+								<div class="col-4">
+									<img src="img/team/team-3.jpg" alt="team-3" width="100%">
+								</div>
+								<div class="col-8">
+									<h5>William Anderson</h5>
+									<p class="header-p mb-1 pb-1">CTO</p>
+									<hr>
+									<p class="header-p mt-1 pt-1">Quisquam facilis cum velit laborum corrupti fuga rerum quia</p>
+									<div class="m-icon">
+										<i class="fa fa-twitter"></i>
+										<i class="fa fa-facebook"></i>
+										<i class="fa fa-instagram"></i>
+										<i class="fa fa-linkedin"></i>								
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="card">
+						<div class="card-body">
+							<div class="row">
+								<div class="col-4">
+									<img src="img/team/team-4.jpg" alt="team-4" width="100%">
+								</div>
+								<div class="col-8">
+									<h5>Amanda Jepson</h5>
+									<p class="header-p mb-1 pb-1">Accountant</p>
+									<hr>
+									<p class="header-p mt-1 pt-1">Dolorum tempora officiis odit laborum officiis et et accusamus</p>
+									<div class="m-icon">
+										<i class="fa fa-twitter"></i>
+										<i class="fa fa-facebook"></i>
+										<i class="fa fa-instagram"></i>
+										<i class="fa fa-linkedin"></i>								
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="jumbotron rounded-0 mb-0" id="pricing" style="background:#FFF;">
+		<div class="container">
+			<h2 class="header-h2 text-center">PRICING</h2>
+			<hr class="header-hr">
+			<p class="header-p text-center">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+
+			<div class="row">
+				<div class="col-md-4">
+					<div class="card" id="card-one">
+						<div class="card-body">
+							<p class="card-p">Free Plan</p>
+							<h1 class="card-h1"><sup style="font-size:22px;">$</sup>0</h1>
+							<span class="card-span mb-5">per month</span>
+							<ul>
+								<li><i class="fa fa-check text-success"></i> Quam adipiscing vitae proin</li>
+								<li><i class="fa fa-check text-success"></i> Nec feugiat nisl pretium</li>
+								<li><i class="fa fa-check text-success"></i> Nulla at volutpat diam uteera</li>
+								<li><i class="fa fa-close"></i> <s>Pharetra massa massa ultricies</s></li>
+								<li><i class="fa fa-close"></i> <s>Massa ultricies mi quis hendrerit</s></li>
+							</ul>
+
+							<button class="btn">Get Started</button>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="card" id="card-two">
+						<div class="card-body">
+							<p class="card-p">Business Plan</p>
+							<h1 class="card-h1"><sup style="font-size:22px;">$</sup>29</h1>
+							<span class="card-span mb-5">per month</span>
+							<ul>
+								<li><i class="fa fa-check text-success"></i> Quam adipiscing vitae proin</li>
+								<li><i class="fa fa-check text-success"></i> Nec feugiat nisl pretium</li>
+								<li><i class="fa fa-check text-success"></i> Nulla at volutpat diam uteera</li>
+								<li><i class="fa fa-check text-success"></i> Pharetra massa massa ultricies</li>
+								<li><i class="fa fa-check text-success"></i> Massa ultricies mi quis hendrerit</li>
+							</ul>
+
+							<button class="btn">Get Started</button>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="card" id="card-three">
+						<div class="card-body">
+							<p class="card-p">Developer Plan</p>
+							<h1 class="card-h1"><sup style="font-size:22px;">$</sup>49</h1>
+							<span class="card-span mb-5">per month</span>
+							<ul>
+								<li><i class="fa fa-check text-success"></i> Quam adipiscing vitae proin</li>
+								<li><i class="fa fa-check text-success"></i> Nec feugiat nisl pretium</li>
+								<li><i class="fa fa-check text-success"></i> Nulla at volutpat diam uteera</li>
+								<li><i class="fa fa-check text-success"></i> Pharetra massa massa ultricies</li>
+								<li><i class="fa fa-check text-success"></i> Massa ultricies mi quis hendrerit</li>
+							</ul>
+
+							<button class="btn">Get Started</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="jumbotron rounded-0 mb-0" id="asked-question">
+		<div class="container">
+			<h2 class="header-h2 text-center">FREQUENTLY ASKED QUESTIONS</h2>
+			<hr class="header-hr text-center">
+			<p class="header-p text-center mb-4">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+
+			<a href="#toggle" data-toggle="collapse"></a>
+			<a href="#toggle" data-toggle="collapse"></a>
+			<a href="#toggle" data-toggle="collapse"></a>
+				
+			<ul class="list-group" id="toggle">
+				<li class="list-group-item py-3 collapse"><i class="fa" id="q-icon">&#xf059;</i> Non consectetur a erat nam at lectus urna duis?<i class="fa fa-angle-down" id="arrow-down"></i></li>
+
+				<p class="header-p pl-4 pr-5 collapse" style="background:#FFF;" id="toggle">Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.</p>
+
+				<li class="list-group-item py-3"><i class="fa" id="q-icon">&#xf059;</i> Feugiat scelerisque varius morbi enim nunc?<i class="fa fa-angle-down" id="arrow-down"></i></li>
+				
+				<li class="list-group-item py-3"><i class="fa" id="q-icon">&#xf059;</i> Dolor sit amet consectetur adipiscing elit?<i class="fa fa-angle-down" id="arrow-down"></i></li>
+				
+				<li class="list-group-item py-3"><i class="fa" id="q-icon">&#xf059;</i> Tempus quam pellentesque nec nam aliquam sem et tortor consequat?<i class="fa fa-angle-down" id="arrow-down"></i></li>
+				
+				<li class="list-group-item py-3"><i class="fa" id="q-icon">&#xf059;</i> Tortor vitae purus faucibus ornare. Varius vel pharetra vel turpis nunc eget lorem dolor?<i class="fa fa-angle-down" id="arrow-down"></i></li>
+			</ul>
+		</div>
+	</div>
+		
+	<div class="jumbotron jumbotron-fluid mb-0 bg-light" id="contact">
+		<div class="container">
+			<h2 class="header-h2 text-center">CONTACT</h2>
+			<hr class="header-hr text-center">
+			<p class="header-p text-center mb-4">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+			
+			<div class="row">
+				<div class="col-md-5 px-4 py-4" id="address-card">
+					<div class="card">
+						<div class="card-body">
+							<div class="row mb-4">
+								<div class="col-2" id="marker">
+									<i class="fa fa-map-marker alert-primary mt-2"></i>
+								</div>
+								<div class="col-10" id="location-box">
+									<p>Location:</p>
+									<span class="d-block">Buland Parwaz Colony 585 104</span>
+								</div>
+							</div>
+
+							<div class="row mb-4">
+								<div class="col-2" id="marker">
+									<i class="fa fa-envelope alert-primary mt-2"></i>
+								</div>
+								<div class="col-10" id="location-box">
+									<p>Email:</p>
+									<span class="d-block">dawoodshaik050@gmail.com</span>
+								</div>
+							</div>
+
+							<div class="row mb-4">
+								<div class="col-2" id="marker">
+									<i class="fa fa-phone alert-primary mt-2"></i>
+								</div>
+								<div class="col-10" id="location-box">
+									<p>Call:</p>
+									<span class="d-block">+91 7899753537</span>
+								</div>
+
+								<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d121872.33233127922!2d76.76989896036662!3d17.339156889501158!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc8c7455b824e57%3A0x44cbe3366957ed9f!2sGulbarga%2C%20Karnataka!5e0!3m2!1sen!2sin!4v1592979564434!5m2!1sen!2sin" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" class="px-4 mt-4"></iframe>
+							
+						</div>
+					</div>
+					</div>
+				</div>
+				
+				<div class="col-md-7 pr-2" id="input-fields">
+					<div class="px-4 py-4 ">
+						<div class="card">
+							<div class="card-body px-4">
+								<div class="input-group mb-4">
+									<div class="input-group-prepend">
+										<span class="input-group-text bg-dark text-light border border-dark py-2">Your Name</span>			
+									</div>
+									<input type="text" name="first name" placeholder="Enter your name" class="form-control border border-dark py-2">
+								</div>
+								
+								<div class="input-group mb-4">
+									<div class="input-group-prepend">
+										<span class="input-group-text bg-dark border border-dark text-light py-2">Your Email</span>
+									</div>
+									<input type="mail" name="mail" placeholder="Enter your mail" class="form-control border border-dark py-2">
+								</div>
+
+								<div class="input-group mb-4">
+									<div class="input-group-prepend">
+										<span class="input-group-text text-light bg-dark border border-dark py-2">Subject</span>
+									</div>
+									<input type="text" name="subject" placeholder="Subject" class="form-control border border-dark py-2">
+								</div>
+
+								<div class="input-group mb-4">
+									<div class="input-group-prepend">
+										<span class="input-group-text bg-dark border border-dark text-light py-2">Address</span>
+									</div>
+									<textarea class="form-control border-dark py-2" style="height:200px;"></textarea>
+								</div>
+								<button class="btn mb-5">Send message</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="jumbotron rounded-0 mb-0" id="our-newsletter">
+		<div class="container">
+			<h2 class="header-h2 text-center mb-3">Join Our Newsletter</h2>
+			<p class="header-p text-center mb-4">Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+			<div class="text-center">
+				<form autocomplete="off">
+					<input type="text" name="text">
+					<input type="submit" name="submit">					
+				</form>
+				
+			</div>
+		</div>
+	</div>
+
+	<div class="jumbotron rounded-0 mb-0 bg-light footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3">
+					<h5>Dawood</h5>
+					<address class="mb-4">
+						Buland Parwaz Colony<br>
+						New City School<br>
+						Gulbarga, 585104<br>
+					</address> 
+
+					<address>
+						<b>Phone:</b> +91 7899753537<br>
+						<b>Email:</b> dawoodshaik050@gmail.com
+					</address>
+				</div>
+
+				<div class="col-md-3">
+					<h5>Useful Links</h5>
+					<ul class="useful-linkes">
+						<li><i class="fa fa-angle-right"></i> Home</li>
+						<li><i class="fa fa-angle-right"></i> About Us</li>
+						<li><i class="fa fa-angle-right"></i> Servics</li>
+						<li><i class="fa fa-angle-right"></i> Terms of service</li>
+						<li><i class="fa fa-angle-right"></i> Privacy policy</li>
+					</ul>
+
+				</div>
+
+				<div class="col-md-3">
+					<h5>Our Services</h5>
+					<ul class="useful-linkes">
+						<li><i class="fa fa-angle-right"></i> Web Design</li>
+						<li><i class="fa fa-angle-right"></i> Web Development</li>
+						<li><i class="fa fa-angle-right"></i> Procuct Management</li>
+						<li><i class="fa fa-angle-right"></i> Marketing</li>
+						<li><i class="fa fa-angle-right"></i> Graphic Disgn</li>
+					</ul>
+
+				</div>
+
+				<div class="col-md-3">
+					<h5>Our Social Networks</h5>
+					<p>Cras fermentum odio eu feugiat lide par naso tierra videa magna derita valies</p>
+					<div class="footer-media-icons">
+						<i class="fa fa-twitter"></i>
+						<i class="fa fa-facebook"></i>
+						<i class="fa fa-instagram"></i>
+						<i class="fa fa-skype"></i>
+						<i class="fa fa-linkedin"></i>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="conainter pt-4 pb-4" id="sub-footer">
+		<div class="row">
+			<div class="col-md-6">
+				<p class="copy-right">© Copyright <b>Dawood</b>. All Rights Reserved</p>
+			</div>
+			<div class="col-md-6">
+				<p class="developed">Designed by <span>Dawood Shaik</span></p>
+			</div>
+		</div>
+	</div>
+
+			
+
+
+
+</body>
+</html>
